@@ -1,0 +1,51 @@
+Last login: Thu Jun 28 12:16:43 on ttys000
+-bash: /Users/USER/git-completion.bash: No such file or directory
+USER (master #) ~ $ cd version-control
+USER (master #) version-control $ cd reflection
+-bash: cd: reflection: No such file or directory
+USER (master #) version-control $ ls
+reflections
+USER (master #) version-control $ cd reflections
+USER (master +) reflections $ git lod
+git: 'lod' is not a git command. See 'git --help'.
+
+Did you mean this?
+	log
+USER (master +) reflections $ git log
+fatal: your current branch 'master' does not have any commits yet
+USER (master +) reflections $ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   lesson_1_reflection_prompts.txt
+
+USER (master +) reflections $ git commit
+
+Add a new commit with no changes
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: WASIU <USER@MACs-MacBook-Pro.local>
+#            
+# On branch master
+#
+# Initial commit
+#   
+# Changes to be committed: 
+#       new file:   lesson_1_reflection_prompts.txt
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT -- W10: Warning: Changing a readonly file
